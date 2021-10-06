@@ -1,62 +1,62 @@
 console.log("-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------");
 
 
-// EXCERCISE 02A
-var string = "this is the second excercise a";
+// Exercise 02A
+var string = "this is the second Exercise a";
 
-console.log("Excercise 02A  Normal String: " + string);
-console.log("Excercise 02A  Result: " + string.toUpperCase());
+console.log("Exercise 02A  Normal String: " + string);
+console.log("Exercise 02A  Result: " + string.toUpperCase());
 
 //
 console.log("--------------------------------------------")
 
-// EXCERCISE 02B
-var stringB = "thiis is the second excercise b";
+// Exercise 02B
+var stringB = "thiis is the second Exercise b";
 fractionString = stringB.substring(0,5);
 
-console.log("Excercise 02B  Normal String: " + stringB);
-console.log("Excercise 02B  Result: " + fractionString);
+console.log("Exercise 02B  Normal String: " + stringB);
+console.log("Exercise 02B  Result: " + fractionString);
 
 //
 console.log("--------------------------------------------")
 
-// EXCERCISE 02C
-var stringC = "this is the second excercise c";
+// Exercise 02C
+var stringC = "this is the second Exercise c";
 fractionStringC = stringC.substring(stringC.length-3,stringC.length);
 
-console.log("Excercise 02C  Normal String: " + stringC);
-console.log("Excercise 02C  Result: " + fractionStringC);
+console.log("Exercise 02C  Normal String: " + stringC);
+console.log("Exercise 02C  Result: " + fractionStringC);
 
 //
 console.log("--------------------------------------------")
 
-// EXCERCISE 02D
-var stringD = "this Is the sEcoNd excercise D";
+// Exercise 02D
+var stringD = "this Is the sEcoNd Exercise D";
 transformedD = stringD.toLocaleLowerCase();             // transform the entire string to LowerCase into a new var
 firstLetter = transformedD.substring(0,1);              // copy the first letter of the string into a new var
 firstLetter = firstLetter.toUpperCase();                // transforme the first letter to UpperCase
 transformedD = transformedD.substring(1,transformedD.length);  // remove the first letter of the string
 transformedD = firstLetter+transformedD;                // concatenate the fisrt letter with the rest of the string
 
-console.log("Excercise 02D  Normal String: " + stringD);
-console.log("Excercise 02D  Result: " + transformedD);
+console.log("Exercise 02D  Normal String: " + stringD);
+console.log("Exercise 02D  Result: " + transformedD);
 
 //
 console.log("--------------------------------------------")
 
-// EXCERCISE 02E
-var stringE = "this is the second excercise e";
+// Exercise 02E
+var stringE = "this is the second Exercise e";
 firstSpace = stringE.indexOf(' ');
 
-console.log("Excercise 02E  Normal String: " + stringE);
-console.log("Excercise 02E  Result: " + firstSpace);
+console.log("Exercise 02E  Normal String: " + stringE);
+console.log("Exercise 02E  Result: " + firstSpace);
 
 
 //
 console.log("--------------------------------------------")
 
-// EXCERCISE 02F
-var stringF = "thisIsTheSecond excerciseF";     
+// Exercise 02F
+var stringF = "thisIsTheSecond ExerciseF";     
 transformedF = stringF.toLocaleLowerCase();                 // transform the entire string to LowerCase into a new var
 positionSpace = transformedF.indexOf(' ');                  // search the position of the word separator
 
@@ -73,8 +73,8 @@ secondWord = secondWord.substring(1,secondWord.length);
 
 transformedF = firstLetterA+firstWord+" "+firstLetterB+secondWord;
 
-console.log("Excercise 02F  Normal String: " + stringF);
-console.log("Excercise 02F  Result: " + transformedF);
+console.log("Exercise 02F  Normal String: " + stringF);
+console.log("Exercise 02F  Result: " + transformedF);
 
 
 

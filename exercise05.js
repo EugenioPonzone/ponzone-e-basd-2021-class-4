@@ -1,17 +1,17 @@
 console.log("-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------");
 
 
-// EXCERCISE 05A
+// Exercise 05A
 var array = ["first", "second", "third", "forth", "fifth"];
 
 for (var i = 0; i < array.length; i++) {
-    console.log("Excercise 05A Result: " + array[i]);
+    console.log("Exercise 05A Result: " + array[i]);
 }
 
 //
 console.log("--------------------------------------------");
 
-// EXCERCISE 05B
+// Exercise 05B
 var transform = firstLetter = "";
 
 for (var i = 0; i < array.length; i++) {
@@ -21,27 +21,27 @@ for (var i = 0; i < array.length; i++) {
     transform = transform.substring(1, transform.length);
     transform = firstLetter + transform;
 
-    console.log("Excercise 05B Result: " + transform);
+    console.log("Exercise 05B Result: " + transform);
 }
 
 //
 console.log("--------------------------------------------");
 
-// EXCERCISE 05C
+// Exercise 05C
 var sentence = "";
 
 for (var i = 0; i < array.length; i++) {
     sentence += array[i];
 }
-console.log("Excercise 05C Result: " + sentence);
+console.log("Exercise 05C Result: " + sentence);
 
 //
 console.log("--------------------------------------------");
 
-// EXCERCISE 05D
+// Exercise 05D
 var arrayD = [];
 
 for (var i = 0; i < 10; i++) {
     arrayD[i] = i;
 }
-console.log("Excercise 05D Result: ", arrayD);
+console.log("Exercise 05D Result: ", arrayD);
