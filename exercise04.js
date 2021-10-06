@@ -23,17 +23,17 @@ var age = Math.round(Math.random() * 100);
 console.log("Exercise 04B Random Age: " + age);
 
 if (age < 2) {
-    console.log("Exercise 04A Result: " + typesAge[0]);
+    console.log("Exercise 04B Result: " + typesAge[0]);
 } else if (age <= 12) {
-    console.log("Exercise 04A Result: " + typesAge[1]);
+    console.log("Exercise 04B Result: " + typesAge[1]);
 } else if (age <= 19) {
-    console.log("Exercise 04A Result: " + typesAge[2]);
+    console.log("Exercise 04B Result: " + typesAge[2]);
 } else if (age <= 30) {
-    console.log("Exercise 04A Result: " + typesAge[3]);
+    console.log("Exercise 04B Result: " + typesAge[3]);
 } else if (age <= 60) {
-    console.log("Exercise 04A Result: " + typesAge[4]);
+    console.log("Exercise 04B Result: " + typesAge[4]);
 } else if (age <= 75) {
-    console.log("Exercise 04A Result: " + typesAge[5]);
+    console.log("Exercise 04B Result: " + typesAge[5]);
 } else {
-    console.log("Exercise 04A Result: " + typesAge[6]);
+    console.log("Exercise 04B Result: " + typesAge[6]);
 }
