@@ -1,7 +1,8 @@
 console.log("-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------");
-
-
-// Exercise 02A
+/*
+Exercise 02A
+Crear una variable de tipo string con al menos 10 caracteres y convertir todo el texto en mayúscula (utilizar toUpperCase).
+*/
 var string = "this is the second Exercise a";
 
 console.log("Exercise 02A  Normal String: " + string);
@@ -10,7 +11,10 @@ console.log("Exercise 02A  Result: " + string.toUpperCase());
 //
 console.log("--------------------------------------------")
 
-// Exercise 02B
+/*
+Exercise 02B
+Crear una variable de tipo string con al menos 10 caracteres y generar un nuevo string con los primeros 5 caracteres guardando el resultado en una nueva variable (utilizar substring).
+*/
 var stringB = "thiis is the second Exercise b";
 fractionString = stringB.substring(0,5);
 
@@ -20,7 +24,10 @@ console.log("Exercise 02B  Result: " + fractionString);
 //
 console.log("--------------------------------------------")
 
-// Exercise 02C
+/*
+Exercise 02C
+Crear una variable de tipo string con al menos 10 caracteres y generar un nuevo string con los últimos 3 caracteres guardando el resultado en una nueva variable (utilizar substring).
+*/
 var stringC = "this is the second Exercise c";
 fractionStringC = stringC.substring(stringC.length-3,stringC.length);
 
@@ -30,7 +37,10 @@ console.log("Exercise 02C  Result: " + fractionStringC);
 //
 console.log("--------------------------------------------")
 
-// Exercise 02D
+/*
+Exercise 02D
+Crear una variable de tipo string con al menos 10 caracteres y generar un nuevo string con la primera letra en mayúscula y las demás en minúscula. Guardar el resultado en una nueva variable (utilizar substring, toUpperCase, toLowerCase y el operador +).
+*/
 var stringD = "this Is the sEcoNd Exercise D";
 transformedD = stringD.toLocaleLowerCase();             // transform the entire string to LowerCase into a new var
 firstLetter = transformedD.substring(0,1);              // copy the first letter of the string into a new var
@@ -44,7 +54,10 @@ console.log("Exercise 02D  Result: " + transformedD);
 //
 console.log("--------------------------------------------")
 
-// Exercise 02E
+/*
+Exercise 02E
+Crear una variable de tipo string con al menos 10 caracteres y algún espacio en blanco. Encontrar la posición del primer espacio en blanco y guardarla en una variable (utilizar indexOf).
+*/
 var stringE = "this is the second Exercise e";
 firstSpace = stringE.indexOf(' ');
 
@@ -55,7 +68,10 @@ console.log("Exercise 02E  Result: " + firstSpace);
 //
 console.log("--------------------------------------------")
 
-// Exercise 02F
+/*
+Exercise 02F
+Crear una variable de tipo string con al menos 2 palabras largas (10 caracteres y algún espacio entre medio). Utilizar los métodos de los ejercicios anteriores para generar un nuevo string que tenga la primera letra de ambas palabras en mayúscula y las demás letras en minúscula (utilizar indexOf, substring, toUpperCase, toLowerCase y el operador +).
+*/
 var stringF = "thisIsTheSecond ExerciseF";     
 transformedF = stringF.toLocaleLowerCase();                 // transform the entire string to LowerCase into a new var
 positionSpace = transformedF.indexOf(' ');                  // search the position of the word separator

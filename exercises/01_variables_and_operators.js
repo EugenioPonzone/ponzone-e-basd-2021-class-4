@@ -1,4 +1,7 @@
-// Exercise 01A
+/* 
+Exercise 01A
+Crear dos variables numéricas y utilizar el operador suma para guardar el valor de la suma de ambos números en una 3er variable.
+*/
 var firstVarA = 1;
 var secondVarA = 2;
 
@@ -11,8 +14,10 @@ console.log("Exercise 01A Result: ", thirdVarA);
 //
 console.log("--------------------------------------------");
 
-// Exercise 01B
-
+/* 
+Exercise 01B
+Crear dos variables de tipo String y concatenarlas guardando el resultado en una 3er variable.
+*/
 var firstVarB = "Eugenio";
 var secondVarB = "Ponzone";
 
@@ -25,7 +30,10 @@ console.log("Exercise 01B Result: " + thirdVarB);
 //
 console.log("--------------------------------------------");
 
-// Exercise 01C
+/*
+Exercise 01C
+Crear dos variables de tipo String y sumar el largo de cada variable (cantidad de letras del string) guardando el resultado de la suma en una 3er variable (utilizar length).
+*/
 var firstVarC = "Eugenio";
 var secondVarC = "Ponzone";
 
