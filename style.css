@@ -1,0 +1,25 @@
+body{
+    background-color: black;
+    color: #EEE;
+    font-family: arial;
+}
+
+h3{
+   text-align: center;
+}
+
+.exercises{
+    margin-bottom: 1em;
+    padding: 1em;
+    border: 2px solid white;
+    background-color: #222;
+}
+
+.sub{
+    padding: 1em;
+    border: 2px solid white;
+}
+
+.description{
+    margin-bottom: 1em;
+}
